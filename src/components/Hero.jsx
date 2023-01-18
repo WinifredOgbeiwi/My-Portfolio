@@ -6,9 +6,9 @@ function Hero() {
     <main name="home" className='h-screen w-full bg-heroBackground bg-cover bg-no-repeat bg-center z-50' >
       <section className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-1 mr-12'>
         <div className='flex flex-col justify-center h-full'>
-          <h1 className='text-3xl sm:text-6xl font-bold  text-white font-headingFont '>Hi,<br />My name is <span className='shadow-2xl bg-neutral-200 rounded-md px-4 text-black'>Winifred</span> </h1>
+          <h1 className='text-2xl sm:text-6xl font-bold  text-white font-headingFont '>Hi,<br />My name is <span className='shadow-2xl bg-neutral-200 rounded-md px-4 text-black'>Winifred</span> </h1>
 
-          <h2 className='text-white  text-2xl sm:text-4xl py-4 max-w-md'>
+          <h2 className='text-white  text-2xl sm:text-4xl py-4'>
 
             <Typewriter
               options={{

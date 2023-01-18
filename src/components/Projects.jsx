@@ -3,7 +3,7 @@ import SearchFilter from '../assets/portfolio/SearchFilter.png'
 import SchoolWebsite from '../assets/portfolio/1.png'
 import LandingPage from '../assets/portfolio/2.png'
 import BankingWeb from '../assets/portfolio/3.png'
-
+import RandomRobot from '../assets/portfolio/RandomRobot.png'
 
 function Projects() {
  
@@ -22,8 +22,13 @@ function Projects() {
         },
         {
             id: 5,
+            src: RandomRobot,
+        },
+        {
+            id: 6,
             src:  SearchFilter,
         },
+
     ]
 
 

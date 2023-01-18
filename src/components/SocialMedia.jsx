@@ -14,7 +14,7 @@ function SocialMedia() {
           <FaGithub size={20} />
         </>
       ),
-      href: '#',
+      href: 'https://github.com/WinifredOgbeiwi',
       style: 'rounded-tr-md'
     },
     {
@@ -25,7 +25,7 @@ function SocialMedia() {
           <FaTwitter size={20} />
         </>
       ),
-      href: '#',
+      href: 'https://twitter.com/winifredogbeiwi',
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ function SocialMedia() {
           <FaLinkedin size={20} />
         </>
       ),
-      href: '#',
+      href: 'https://www.linkedin.com/in/winifred-imade-ogbeiwi-792b3a200/',
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ function SocialMedia() {
           <MdMailOutline size={20} />
         </>
       ),
-      href: '#',
+      href:'mailto:imadeogbeiwi@gmail.com',
     },
   ]
   return (
