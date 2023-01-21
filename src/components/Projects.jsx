@@ -6,7 +6,6 @@ import BankingWeb from '../assets/portfolio/3.png'
 import RandomRobot from '../assets/portfolio/RandomRobot.png'
 
 function Projects() {
- 
     const projects = [
         {
             id: 1,
@@ -34,14 +33,14 @@ function Projects() {
 
 
     return (
-        <div name='projects' className=' bg-slate-900 shadow-2xl shadow-white w-full text-white md:h-screen'>
+        <div name='projects' data-aos='fade-down' className=' bg-slate-900 shadow-2xl shadow-white w-full text-white md:h-screen'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 
-                <div className='pb-8'>
-                    <h3 className='text-4xl font-bold inline bg-cyan-500 shadow-lg shadow-cyan-500/50 px-8 py-3 rounded-md'>Projects</h3>
+                <div className='py-8'>
+                    <h3 className='text-4xl font-bold inline bg-cyan-500 shadow-lg shadow-cyan-500/50 px-8 py-3 '>Projects</h3>
                 </div>
                 <div
-                    className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-4 pb-5'>
+                    className='grid sm:grid-cols-2 md:grid-cols-3 px-12 sm:px-4 pb-5 gap-8 '>
                     {projects.map(({ id, src }) => (
 
                         <div key={id} className=' rounded-lg shadow-md shadow-gray-600'>

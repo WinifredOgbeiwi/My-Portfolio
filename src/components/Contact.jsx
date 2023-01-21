@@ -2,10 +2,10 @@ import React from 'react'
 function Contact() {
   return (
     <div 
-    name='contact'
+      name='contact' data-aos='fade-down'
       className='w-full h-screen bg-slate-900 shadow-lg shadow-white p-4 text-white'>
         <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
-            <div className='pb-8'>
+            <div className='py-8'>
           <h3 className='text-4xl font-bold inline bg-cyan-500 shadow-lg shadow-cyan-500/50 px-8 py-3 rounded-md'>Contact</h3>
             </div>
 

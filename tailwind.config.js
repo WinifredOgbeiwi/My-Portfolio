@@ -8,8 +8,9 @@ module.exports = {
       heroBackground: "url('./assets/herobackground.jpg')",
     },
     fontFamily: {
-      headingFont: "Share Tech Mono",
+      headingFont: "Space Mono",
+      bodyFont: "Rubik",
     },
   },
-  plugins: []
+  plugins: [],
 };

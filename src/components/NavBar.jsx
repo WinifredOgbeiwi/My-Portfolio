@@ -1,7 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
 import { Link } from "react-scroll";
 import Logo from '../assets/Logo.png'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 
 function NavBar() {
@@ -31,8 +33,11 @@ function NavBar() {
     // usestate for responsive navbar
     const [nav, setNav] = useState(false);
 
+    useEffect(()=>{
+        Aos.init({duration:2000});
+    }, []);
     return (
-        <div className='flex justify-between items-center w-full bg-cyan-300 bg-transparent-0 text-black fixed p-4 z-50'>
+        <div data-aos='fade-down' className='flex justify-between items-center w-full bg-cyan-300 bg-transparent-0 text-black fixed p-4 z-50'>
             <div>
                 
                 <a href="./Hero.jsx">

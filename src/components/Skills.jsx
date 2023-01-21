@@ -58,10 +58,10 @@ function Skills() {
 
 
     return (
-        <div name='skills' className='bg-slate-900 shadow-2xl  shadow-white w-full h-screen '>
+        <div name='skills' data-aos='fade-down' className='bg-slate-900 shadow-2xl  shadow-white w-full h-screen '>
 
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
-                <div className='pb-8' >
+                <div className='py-8' >
                     <h3 className='text-4xl font-bold bg-cyan-500 shadow-lg shadow-cyan-500/50 px-8 py-3 rounded-md inline'>Skills</h3>
                 </div>
                 <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>

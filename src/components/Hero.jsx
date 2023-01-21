@@ -1,14 +1,15 @@
 import React from 'react'
 import { MdDoubleArrow } from 'react-icons/md'
 import Typewriter from 'typewriter-effect'
+
 function Hero() {
   return (
-    <main name="home" className='h-screen w-full bg-heroBackground bg-cover bg-no-repeat bg-center z-50' >
+    <main name="home" data-aos='flip-left'  className='h-screen w-full bg-heroBackground bg-cover bg-no-repeat bg-center z-50' >
       <section className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-1 mr-12'>
-        <div className='flex flex-col justify-center h-full'>
-          <h1 className='text-2xl sm:text-6xl font-bold  text-white font-headingFont '>Hi,<br />My name is <span className='shadow-2xl bg-neutral-200 rounded-md px-4 text-black'>Winifred</span> </h1>
+        <div className='flex flex-col justify-center h-full gap-2'>
+          <h1 data-aos='fade-down' className='text-2xl sm:text-6xl pl:20 font-bold  text-white font-headingFont '>Hi,<br />My name is Winifred </h1>
 
-          <h2 className='text-white  text-2xl sm:text-4xl py-4'>
+          <p data-aos='fade-down' className='text-white  text-1xl sm:text-4xl'>
 
             <Typewriter
               options={{
@@ -18,11 +19,11 @@ function Hero() {
                 strings: [
                   "I am a Web Developer",
                   "I am a Tech Enthusiast",
-                  "I am a Women Techsters Fellow"
+                  "I am a W.T Fellow"
                 ]
               }} />
-          </h2>
-          <div>
+          </p>
+          <div data-aos='fade-down'>
             <a href="./Winifred Ogbeiwi_Frontend(Software Development).pdf" download={true}>
               <button className='text-blue w-fit px-6 py-3 my-2 flex items-center rounded-md bg-white cursor-pointer group shadow-2xl'>Download CV
 
