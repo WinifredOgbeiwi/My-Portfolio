@@ -23,14 +23,14 @@ const projectDatas = [
     description:'A Landing page that for Lokum Med-Health Care'
 
   },
-  {
-    id: 4,
-    cover: Ebook,
-  },
-  {
-    id: 5,
-    cover: Ebook,
-  },
+  // {
+  //   id: 4,
+  //   cover: Ebook,
+  // },
+  // {
+  //   id: 5,
+  //   cover: Ebook,
+  // },
   //   {
   //     id: 6,
   //     cover: SearchFilter,

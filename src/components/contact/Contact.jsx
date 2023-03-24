@@ -5,7 +5,7 @@ function Contact() {
   return (
     <section
       name='contact' data-aos='fade-down'
-      className=''>
+      className='mt-20'>
       <div className=''>
         <Headings title='Contact' />
         <div className='flex justify-center items-center'>

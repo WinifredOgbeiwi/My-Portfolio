@@ -10,7 +10,7 @@ function About() {
     >
       <Headings title="About" />
        <div className="flex flex-col lg:flex-row gap-3 sm:gap-10">
-        <div className="shadow-2xl basis-1/2 h-[36rem] p-2 sm:p-5 ">
+        <div className=" basis-1/2 p-2 sm:p-5 ">
           <div className="firstDiv p-1 sm:p-5 h-full ">
             <div className="secondDiv rounded h-full p-2 sm:p-5 text-sm sm:text-lg">
             <p> I am a lawyer who made the switch to technology because I enjoy creating visuals, enhancing user experience, and writing code to solve problems in the real world.</p>  
@@ -21,7 +21,7 @@ function About() {
    
           </div>
         </div>
-        <div className=" shadow-2xl basis-1/2 p-2 sm:p-5  lg:mt-32 h-fit ">
+        <div className="  basis-1/2 p-2 sm:p-5  lg:mt-32 h-fit ">
           <div className="firstDIV p-1 sm:p-5   ">
             <div className="secondDiv rounded overflow-hidden w-full ">
               <img src={MyPic} alt="" className="w-full" />
