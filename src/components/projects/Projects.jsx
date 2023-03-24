@@ -13,15 +13,15 @@ function Projects() {
         className="">
         <Headings title="Projects" />
         <div>
-          <div className='flex flex-wrap justify-center gap-10'>
+          <div className='flex flex-wrap justify-center sm:justify-start  gap-10'>
 
 
             {projectDatas.map(({ id, img, github, live }) => (
                 <div 
-                key={id}className='shadow-xl p-5 w-[30rem]'>
-                <div className='border-4 border-black p-2 sm:p-5 rounded-lg'>
-                    <div className='border-2 border-black p-2 sm:p-5 rounded-lg '>
-                      <div className='sm:h-72 h-32 overflow-hidden '>
+                key={id} className='shadow-xl p-5 w-[25rem]'>
+                <div className='firstDiv p-2 sm:p-5 rounded-lg'>
+                    <div className='secondDiv p-2 sm:p-5 rounded-lg '>
+                      <div className='sm:h-52 h-24 overflow-hidden '>
                         <img src={img} alt="" className='rounded-lg' />
                       </div>
                   <div className='my-2 flex gap-3'>
