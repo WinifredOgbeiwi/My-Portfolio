@@ -5,6 +5,14 @@ import { MdPreview } from 'react-icons/md'
 import { FaGithubSquare } from 'react-icons/fa'
 
 function Projects() {
+  const langStyle = {
+    border:'1px solid black',
+    backgroundColor:'rgb(255, 255, 255)',
+    boxShadow: '3px 3px rgb(0, 0, 0)',
+    padding:'0 5px',
+    fontSize:'.6rem'
+  }
+
   return (
     <>
       <section
@@ -13,26 +21,27 @@ function Projects() {
         className="">
         <Headings title="Projects" />
         <div>
-          <div className='flex flex-wrap justify-center sm:justify-start  gap-10'>
+          <div className='flex flex-wrap justify-center  gap-10'>
 
-
-            {projectDatas.map(({ id, img, github, live }) => (
+            {projectDatas.map((data) => (
                 <div 
-                key={id} className='shadow-xl p-5 w-[25rem]'>
+                key={data.id} className='shadow-xl p-5 '>
                 <div className='firstDiv p-2 sm:p-5 rounded-lg'>
                     <div className='secondDiv p-2 sm:p-5 rounded-lg '>
-                      <div className='sm:h-52 h-24 overflow-hidden '>
-                        <img src={img} alt="" className='rounded-lg' />
+                      <div className='sm:h-52 h-24 overflow-hidden w-72'>
+                        <img src={data.cover} alt="Project Sample Image" className='rounded-lg w-full' />
                       </div>
-                  <div className='my-2 flex gap-3'>
-                    <p className='border-2 border-black rounded sm:rounded-lg w-fit px-3 text-xs sm:text-base'>API</p>
-                      <p className='border-2 border-black rounded sm:rounded-lg w-fit px-3 text-xs sm:text-base'>REACT</p>
+                  <div className='my-3 flex gap-3'>
+                      <p style={langStyle}>{data.lang1}</p>
+                      <p style={langStyle}>{data.lang2}</p>
+                      <p style={langStyle}>{data.lang3}</p>
                   </div>
-                      <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, excepturi.</p>
-                      <div className='flex gap-3 sm:gap-10 mt-3 text-xl sm:text-2xl font-thin cursor-pointer '>
-                        <a href={live} target='_blank'
+                  <h4 className='font-bold text-sm'>{data.heading}</h4>
+                      <p className='text-xs w-72'>{data.description}</p>
+                      <div className='flex justify-center gap-3 mt-3 text-xl sm:text-3xl font-thin cursor-pointer '>
+                        <a href={data.live} target='_blank'
                         rel="noreferrer"><MdPreview className='hover:scale-110' /></a>
-                      <a href={github} target='_blank' rel="noreferrer"><FaGithubSquare className='hover:scale-110' /></a>
+                      <a href={data.github} target='_blank' rel="noreferrer"><FaGithubSquare className='hover:scale-110' /></a>
                       </div>
                     </div>
                   </div>

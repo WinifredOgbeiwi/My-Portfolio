@@ -17,7 +17,7 @@ function Skills() {
             <div
               data-aos="fade-right"
               key={id}
-              className='shadow-xl hover:scale-105 duration-500 p-1 sm:p-5 rounded-lg w-44 sm:w-60'
+              className='shadow-xl hover:scale-105 duration-500 p-1 sm:p-5 rounded-lg w-32 sm:w-60'
             >
               <div className="firstDiv rounded-lg p-1 sm:p-5">
                 <div className="secondDiv rounded p-3 sm:p-5 flex items-center flex-col ">
