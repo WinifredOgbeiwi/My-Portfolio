@@ -17,21 +17,21 @@ function Contact() {
               name='name'
               required
               placeholder='Name'
-              className='p-2 bg-transparent border-2  rounded-md text-white focus:outline-none' />
+              className='p-2 border-2  rounded-md focus:outline-none' />
 
             <input
               type='email'
               name='email'
               required
               placeholder='Email'
-              className='p-2 bg-transparent border-2  rounded-md text-white focus:outline-none my-4' />
+              className='p-2  border-2  rounded-md focus:outline-none my-4' />
 
             <textarea
               name='message'
               rows='10'
               required
               placeholder='Message'
-              className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'></textarea>
+              className='p-2 border-2 rounded-md focus:outline-none'></textarea>
             <button 
             type='submit' 
               className='text-xl font-bold shadow-2xl text-center px-16 py-3 mb-10 hover:scale-110 '>Send</button>
