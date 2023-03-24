@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './BoxStyle.css'
 function Headings(props) {
     return (
-        <div className='flex justify-center'>
-            <h3 className='text-xl font-bold shadow-2xl text-center px-16 py-3 mb-10'>{props.title}</h3>
+        <div className='firstDiv flex justify-center'>
+            <h3 className='secondDiv text-xl font-bold text-center px-16 py-3 mb-10'>{props.title}</h3>
         </div>
     )
 }

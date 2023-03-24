@@ -15,7 +15,7 @@ function NavBar() {
     <>
       <nav
         data-aos="fade-down"
-        className="flex justify-between items-center text-black text-xl w-full z-50 px-7 py-4 fixed border-b-[1px] border-gray-100 bg-white"
+        className="flex justify-between items-center text-black text-lg w-full z-50 px-7 py-4 fixed border-b-[1px] border-gray-100 bg-white"
       >
         <div>
          <a href="/"><h1>Logo</h1></a> 
