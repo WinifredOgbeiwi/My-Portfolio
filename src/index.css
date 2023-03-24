@@ -2,10 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&family=Share+Tech+Mono&family=Space+Mono:wght@400;700&display=swap');
-body{
-    background-color: rgb(21, 30, 49);
-    font-family: 'Rubik', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Vidaloka&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
 }
 
+h1{
+font-family: 'Major Mono Display', monospace;
+}
 
+section{
+  padding: 2rem 5rem;
+  scroll-snap-type: mandatory;
+  scroll-padding-top: 0;
+}
+@media (max-width: 640px) {
+    section{
+        padding: 1rem ;
+    }
+}
+img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+img:hover{
+    -webkit-filter: grayscale(0%);
+        /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
+}
