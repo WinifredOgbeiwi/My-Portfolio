@@ -24,19 +24,20 @@ function Projects() {
                   <div key={data.id}  className="secondDiv p-2 sm:p-5 rounded-lg w-62 ">
                     <div className="sm:h-52 h-24 overflow-hidden w-72">
                       <img
+                    data-aos="fade-down"
                         src={data.cover}
                         alt="Project Sample"
                         className="rounded-lg w-full"
                       />
                     </div>
-                    <div className="my-3 flex gap-3">
+                <div data-aos="fade-down" className="my-3 flex gap-3">
                       <p style={langStyle}>{data.lang1}</p>
                       <p style={langStyle}>{data.lang2}</p>
                       {data.lang3 && <p style={langStyle}>{data.lang3}</p>}
                     </div>
-                    <h4 className="font-bold text-sm">{data.heading}</h4>
-                    <p className="text-xs w-72">{data.description}</p>
-                    <div className="flex justify-center gap-3 mt-3 text-xl sm:text-3xl font-thin cursor-pointer ">
+                    <h4 data-aos="fade-down" className="font-bold text-sm">{data.heading}</h4>
+                    <p data-aos="fade-down" className="text-xs w-72">{data.description}</p>
+                <div data-aos="fade-down" className="flex justify-center gap-3 mt-3 text-xl sm:text-3xl font-thin cursor-pointer ">
                       <a href={data.live} target="_blank" rel="noreferrer">
                         <MdPreview className="hover:scale-110" />
                       </a>

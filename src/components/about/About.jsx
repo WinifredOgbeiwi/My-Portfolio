@@ -13,9 +13,9 @@ function About() {
         <div className=" basis-1/2 p-2 sm:p-5 ">
           <div className="firstDiv p-1 sm:p-5 ">
             <div className="secondDiv rounded p-2 sm:p-5 text-sm sm:text-lg">
-            <p> I am a lawyer who made the switch to technology because I enjoy creating visuals, enhancing user experience, and writing code to solve problems in the real world.</p>  
-            <p className="my-3">My transitioning into the technology industry demonstrates my resilience , willingess to learn and ability to take up new challenges </p>
-             <p> I am knowledgable in HTML, CSS, Tailwind,Javascript and ReactJs. </p>
+              <p data-aos="fade-right"> I am a lawyer who made the switch to technology because I enjoy creating visuals, enhancing user experience, and writing code to solve problems in the real world.</p>  
+              <p data-aos="fade-right" className="my-3">My transitioning into the technology industry demonstrates my resilience , willingess to learn and ability to take up new challenges </p>
+              <p data-aos="fade-right"> I am knowledgable in HTML, CSS, Tailwind, Javascript and ReactJs. </p>
             </div>
             
    
@@ -24,7 +24,7 @@ function About() {
         <div className="  basis-1/2 p-2 sm:p-5  lg:mt-32 h-fit ">
           <div className="firstDIV p-1 sm:p-5   ">
             <div className="secondDiv rounded overflow-hidden w-full ">
-              <img src={MyPic} alt="" className="w-full" />
+              <img data-aos="fade-left" src={MyPic} alt="" className="w-full" />
             </div>
           </div>
         </div>

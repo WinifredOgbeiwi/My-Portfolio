@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Source+Sans+Pro:wght@100;300;400;500;700;900&family=Vidaloka&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: white;
+font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1{
@@ -17,7 +18,7 @@ font-family: 'Major Mono Display', monospace;
 section{
   padding: 2rem 5rem;
   scroll-snap-type: mandatory;
-  scroll-padding-top: 0;
+  scroll-margin-top: -20px;
 }
 @media (max-width: 640px) {
     section{
