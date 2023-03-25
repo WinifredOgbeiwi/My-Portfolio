@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import Logo from '../../Images/logo.png'
 import navLinks from "./navLinks";
 import { Link } from "react-scroll";
 import Aos from "aos";
@@ -18,7 +19,7 @@ function NavBar() {
         className="flex justify-between items-center text-black text-lg w-full z-50 px-7 py-4 fixed border-b-[1px] border-gray-100 bg-white"
       >
         <div>
-         <a href="/"><h1>Logo</h1></a> 
+         <a href="/"> <img src={Logo} alt="" className="w-20" /> </a>
         </div>
 
         <ul className="hidden md:flex ">
