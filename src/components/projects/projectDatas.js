@@ -2,6 +2,7 @@ import Ebook from '../../Images/projects/ebook.png'
 import Lokum from "../../Images/projects/lokum.png";
 import ShortenUrl from "../../Images/projects/shorten-url.png";
 import Todo from "../../Images/projects/todo.png";
+import Event from "../../Images/projects/Event.png";
 const projectDatas = [
   {
     id: 1,
@@ -35,7 +36,7 @@ const projectDatas = [
     live: "todo-list-winifredogbeiwi.vercel.app",
     lang1: "HTML",
     lang2: "CSS",
-    lang3:"JavaScript",
+    lang3: "JavaScript",
     heading: "Todo List",
     description:
       "A web app inclusive of a login and sign in page that allows users to input tasks with the ability to edit and delete ",
@@ -50,6 +51,16 @@ const projectDatas = [
     heading: "Lokum Med-Health Care",
     description:
       "A Landing page for Lokum Med-Health Care that incorporated FAQ section",
+  },
+  {
+    id: 5,
+    cover: Event,
+    lang1: "React",
+    lang2: "Tailwind",
+    lang3: "Material Ui",
+    heading: "E-VENT",
+    description:
+      "Voluntary/Contributing in building a SASS app in Circle Community",
   },
   // {
   //   id: 4,
