@@ -12,7 +12,7 @@ function Hero() {
               className='flex justify-start text-sm sm:text-lg'>Hi, I am </h4>
           <h1 
               data-aos='fade-left'
-          className='text-4xl sm:text-7xl '>Winifred ogbeiwi</h1>
+          className='text-2xl sm:text-6xl '>Winifred imade ogbeiwi</h1>
             <p data-aos='fade-right' className='mt-6 text-xs sm:text-lg'>I aim to transform ideas into reality by combining  creativity and process driven development <br/>to create functional and user friendly web application</p>
 
             <div data-aos='fade-left'>

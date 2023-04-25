@@ -18,16 +18,17 @@ function Projects() {
       <section name="projects" data-aos="fade-down" className="mt-20">
         <Headings title="Projects" />
         <div>
-          <div className="flex flex-wrap justify-center  gap-10">
+          <div 
+          data-aos="fade-down" 
+          className="flex flex-wrap justify-center  gap-10">
             {projectDatas.map((data) => (
 
-              <div key={data.id} className="secondDiv p-2 sm:p-5 rounded-lg w-62 ">
-                <div className="sm:h-52 h-24 overflow-hidden w-72">
+              <div key={data.id} className="secondDiv p-2 sm:p-5 rounded-lg w-fit">
+                <div className="sm:h-52 h-24 overflow-hidden w-fit">
                   <img
-                    data-aos="fade-right"
                     src={data.cover}
                     alt="Project Sample"
-                    className="rounded-lg w-full"
+                    className="rounded-lg w-80"
                   />
                 </div>
                 <div data-aos="fade-left" className="my-3 flex gap-3">
@@ -38,12 +39,13 @@ function Projects() {
                 <h4 className="font-bold text-sm">{data.heading}</h4>
                 <p className="text-xs w-72">{data.description}</p>
                 <div className="flex justify-center gap-3 mt-3 text-xl sm:text-3xl font-thin cursor-pointer ">
-                  <a href={data.live} target="_blank" rel="noreferrer">
+                  {data.live && <a href={data.live} target="_blank" rel="noreferrer">
                     <MdPreview className="hover:scale-110" />
-                  </a>
-                  <a href={data.github} target="_blank" rel="noreferrer">
+                  </a>}
+                  {data.github && <a href={data.github} target="_blank" rel="noreferrer">
                     <FaGithubSquare className="hover:scale-110" />
-                  </a>
+                  </a>}
+                 
                 </div>
               </div>
 
