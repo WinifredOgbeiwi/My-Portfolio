@@ -16,7 +16,7 @@ function Hero() {
             <p data-aos='fade-right' className='mt-6 text-xs sm:text-lg'>I aim to transform ideas into reality by combining  creativity and process driven development <br/>to create functional and user friendly web application</p>
 
             <div data-aos='fade-left'>
-              <a href="./Winifred Ogbeiwi resume.pdf" download={true}>
+              <a href="./Winifred Imade Ogbeiwi.pdf" download={true}>
                 <button className='cv w-fit px-6 py-3 my-2 flex items-center rounded-md bg-white cursor-pointer group shadow-2xl gap-4 text-lg mt-6 border-2 border-transparent' >Download CV
 
                   <span className='group-hover:rotate-90 duration-300'><MdDoubleArrow />
