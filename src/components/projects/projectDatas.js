@@ -53,7 +53,7 @@ const projectDatas = [
     cover: Lays,
     title: "Lays Landing Page",
     live: "https://i-made-lays-website.vercel.app/",
-    technologies: ["React", "Tailwind", ""],
+    technologies: ["React", "Tailwind", ],
     feature: "",
     description: "",
     github: "",
@@ -62,9 +62,11 @@ const projectDatas = [
     id: 5,
     cover: Ebook,
     title: "Ebook Library",
+    github:"",
     description:
       " Ebook Library is a single page web platform , built with React and Tailwind CSS  that harnesses REST and Google Books APIs. It serves as a valuable resource for readers and authors, offering diverse eBooks accessible from anywhere. Users can search, read on any device, discover new content, and authors can showcase their work, fostering knowledge sharing and a love for literature.",
     live: "https://ebooks-google-api.vercel.app/",
+    feature:"",
     technologies: ["React", "Tailwind", "REST Api"],
   },
 
@@ -74,7 +76,8 @@ const projectDatas = [
     github: "https://github.com/WinifredOgbeiwi/URL-Shortener",
     title: "URL Shorten",
     live: "https://url-shortener-winifredogbeiwi.vercel.app/",
-    technologies: ["Rest API", "React", "Tailwind",],
+    technologies: ["Rest API", "React", "Tailwind"],
+    feature:"",
     description:
       "LinkShortenPro is your go-to web app, designed with simplicity in mind. It allows one to quickly and effortlessly shorten long URLs into concise, shareable links. It utilizes Goggle API that allows users to shorten URL links and its built with Mobile Compatibility",
   },
@@ -83,8 +86,8 @@ const projectDatas = [
     cover: Lokum,
     github: "https://github.com/WinifredOgbeiwi/Lokum-HeathCare-Service",
     live: "https://lokum-healthcare.netlify.app/",
-    lang1: "React",
-    lang2: "Tailwind",
+    technologies:[ "React", "Tailwind"],
+    feature:"",
     heading: "Lokum Med-Health Care",
     description:
       "A Landing page for Lokum Med-Health Care that incorporated FAQ section",

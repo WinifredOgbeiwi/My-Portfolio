@@ -19,6 +19,7 @@ function Projects() {
         <div>
           {projectDatas.map((data, index) => (
             <div
+            key={index}
               className={`flex flex-col md:flex-row items-center  w-full gap-10 my-10 ${index % 2 === 0 ? '' : ' md:flex-row-reverse'
                 }`}
             >
