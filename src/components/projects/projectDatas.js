@@ -21,7 +21,7 @@ const projectDatas = [
     description:
       "Firma is an innovative online marketplace that simplifies the way clients and lawyers connect, making it a seamless and efficient experience. Leveraging the power of the MERN stack, we've developed a platform that not only streamlines the legal hiring process but also offers a plethora of features designed to enhance legal journey such as",
     features:
-      "Secure Wallet Integration, Real-time Messaging, Document Management, Review and Rating System: ",
+      "Secure Wallet Integration, Real-time Messaging, Document Management, Review and Rating System",
     github: "",
     live: "https://firma.ink",
     technologies: ["React", "NodeJs", "ExpressJs", "Mongoose", "Bootstrap"],
@@ -84,6 +84,7 @@ const projectDatas = [
   {
     id: 7,
     cover: Lokum,
+    title:"Lokum Health Landing Page",
     github: "https://github.com/WinifredOgbeiwi/Lokum-HeathCare-Service",
     live: "https://lokum-healthcare.netlify.app/",
     technologies:[ "React", "Tailwind"],
