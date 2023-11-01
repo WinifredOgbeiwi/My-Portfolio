@@ -55,7 +55,7 @@ const projectDatas = [
     live: "https://i-made-lays-website.vercel.app/",
     technologies: ["React", "Tailwind", ],
     feature: "",
-    description: "",
+    description: "Lays Landing Page",
     github: "",
   },
   {
