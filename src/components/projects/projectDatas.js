@@ -33,7 +33,7 @@ const projectDatas = [
     description:
       "Steller Website Builder is a dynamic and innovative website designed to showcase the expertise and capabilities of a company dedicated to crafting high-quality websites for clients. This project was created using React and styled with Tailwind CSS, reflecting modern web development standards and practices such as Component-Based Architecture, Scalibility, ",
     features: ["Blog Integration,", "Contact Form "],
-    live: "https://www.test.easei.africa/",
+    live: "https://www.easei.africa/",
     github: "",
     technologies: ["React", "Tailwind"],
   },
