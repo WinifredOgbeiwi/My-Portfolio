@@ -14,7 +14,7 @@ function About() {
           <div className="firstDiv p-1 sm:p-5 ">
             <div  className="secondDiv rounded p-2 sm:p-5 text-sm sm:text-lg">
               <div data-aos="fade-right">
-                <p > I am a lawyer who made the switch to technology because I enjoy creating visuals, enhancing user experience, and writing code to solve problems in the real world.</p>
+                <p> With a pench  I am a lawyer who made the switch to technology because I enjoy creating visuals, enhancing user experience, and writing code to solve problems in the real world.</p>
                 <p className="my-3">My transitioning into the technology industry demonstrates my resilience , willingess to learn and ability to take up new challenges </p>
                 <p > I am knowledgable in HTML, CSS, Tailwind, Javascript and ReactJs. </p>
               </div>
